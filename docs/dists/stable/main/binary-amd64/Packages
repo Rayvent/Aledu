@@ -17,33 +17,33 @@ Description: Aledu Linux desktop appearance
 
 Package: aledu-lessons
 Architecture: all
-Version: 0.2.0
+Version: 0.2.1
 Priority: optional
 Section: education
 Maintainer: Aledu local build <build@aledu.invalid>
-Depends: aledu-branding (>= 0.2.1), learn-course (>= 0.3.1), learn-seminar-02 (>= 0.1.0), aledu-repository (>= 0.1.0)
-Filename: pool/main/aledu-lessons_0.2.0_all.deb
-Size: 816
-MD5sum: 554ddc7f3b1b26f63537a5cd7eb5aae5
-SHA1: 02e0e2b07ae18a64ce7960d2e7393dd506523157
-SHA256: ef815b252118644f0bb674112400d9b33e7a958716faac5973f870348ea6bb6b
-SHA512: 3313a4365e2896e9e2c34ebe11f65a8471647d3761fc8746d39f86e96a0d78c123520e51f89eade59510ab14006140bdfe612bc9bc1df25bbe5041fdb558bb81
+Depends: aledu-branding (>= 0.2.1), learn-course (>= 0.3.1), learn-seminar-02 (>= 0.1.0), learn-seminar-03 (>= 0.1.0), aledu-repository (>= 0.1.1)
+Filename: pool/main/aledu-lessons_0.2.1_all.deb
+Size: 820
+MD5sum: 05989e1dc6ed5a8fe9dea0eef548d732
+SHA1: d2bd699922071cffaf315544dba45dc7ca5148b2
+SHA256: 3b2134b3a118a5bd79ea5326b71ee5b1b744c341b210ac83a24cc3fc3f7ccd30
+SHA512: 015a3a744db643e55e40a945fb74e2159fcc5bb1c811f6c995349e0bbe2e889c4488d6ebd6f0f0411892f064b38a4d8fad7b2fde3c4bc6dc51f0ebfb7ed13516
 Description: Aledu Learn course collection
  Installs the current Learn engine, branding and seminar modules.
 
 Package: aledu-repository
 Architecture: all
-Version: 0.1.0
+Version: 0.1.1
 Priority: optional
 Section: admin
 Maintainer: Aledu local build <build@aledu.invalid>
 Depends: apt, ca-certificates
-Filename: pool/main/aledu-repository_0.1.0_all.deb
+Filename: pool/main/aledu-repository_0.1.1_all.deb
 Size: 1420
-MD5sum: 00c8b584935885943076b1f420c70a5d
-SHA1: 4277bd2b4806519373490f5bb41ddd2de3ba80ed
-SHA256: 02460daa91cdb55b0a327838608d4c40ac9c3da8a3a3d5bc5b6e96d5e07fd1e3
-SHA512: 03c2269880c385c918ea057f2815d9c46299e1a9d43857f4a33a945f1b1e481dbf2b6f006d0172c0ee46eabd24486e3a56300183ddbb96f02bf335a6916f60cb
+MD5sum: be3d9eea948079082a67c18f08bf7402
+SHA1: 4d5ebad4dd8f93a77ea223948d9be7cbc4ba4a48
+SHA256: a2974222e78dcdc809c0b1bbddb8c50c178de9acaf7d6a42b158eaf6117ea029
+SHA512: c0ceba446149b00a41a4f53856ca96b22628a7c6794fae681cf28cc2b763689a2510cdead89b3cba708c36c490c5e56e0bda01214610f3f6fe56f727b2f7d1e7
 Description: Aledu signed package repository configuration
  Public archive key and the Aledu APT source definition.
 
@@ -80,4 +80,20 @@ SHA512: f115f3a015a98f1e0c3fd464986cec67b7424950b02e376f1b18dbc62a5896fb4aa60a55
 Description: Aledu Learn seminar 2
  Guided terminal exercises with hints and read-only result checks.
  Includes the original workbench package as a training material.
+
+Package: learn-seminar-03
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: education
+Maintainer: Aledu local build <build@aledu.invalid>
+Depends: learn-course (>= 0.2.1), bash, python3
+Filename: pool/main/learn-seminar-03_0.1.0_all.deb
+Size: 45376
+MD5sum: a7b7ac69546573bd0e95d5883cc067dc
+SHA1: 48bfc461cdc11edc46b6ea3451d7a575b410eadf
+SHA256: e3ddfe374d7af2f68fd75e012b697cd0d588052180cadfb1193849036fde5c0a
+SHA512: 6ac88dd574a1d3deccab70868b5dac04decdd08678b6797871c5463be50c669c2a8895ad5b56c79106918656055e4ee0668d8b1f4e7ce7900cc6ca5af91a915b
+Description: Aledu Learn seminar 3
+ Guided exercises, hints and training materials.
 
