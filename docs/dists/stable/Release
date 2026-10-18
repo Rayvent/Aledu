@@ -1,0 +1,25 @@
+Acquire-By-Hash: yes
+Architectures: amd64
+Codename: aledu-stable
+Components: main
+Date: Sun, 18 Oct 2026 11:53:25 +0000
+Description: Aledu Learn updates
+Label: Aledu
+Origin: Aledu
+Suite: stable
+MD5Sum:
+ b70901adedfcdeb2313f77cc1de0cfa3              194 Release
+ 73dafe034c226013e0cf415abea783dd             3680 main/binary-amd64/Packages
+ 9c894ae01130128789399d3d25fe18e4             1772 main/binary-amd64/Packages.gz
+SHA1:
+ dde98a3a5297ad41b301c70d90b5c289a43b3a8b              194 Release
+ c775bf36415df7f2444d46d611a05f5641ec42d1             3680 main/binary-amd64/Packages
+ 5425183210310ecb59fe6b4de7e4021eceb164da             1772 main/binary-amd64/Packages.gz
+SHA256:
+ 2adad4b79a0528e444b5b4da1853845edebf750050ae47e0e1687b15be2e3a3e              194 Release
+ a5d503e4afc78d0f77acf7bbddde40b6a8b1e012d52065f15e661ea14bc74d27             3680 main/binary-amd64/Packages
+ 0bc64f8201c08dc58380e3ef14c3bfd2a27b4bbba189a7e70eb3a18397dd796d             1772 main/binary-amd64/Packages.gz
+SHA512:
+ 86e5ce8190c7e802caa45dcb3b6d8d8ec7fb8e4830efe7d19a9a4c2524d2ed91627dc47fc31135eb41a6016b48ca2835a9189b45d592631a5508c3341f1f6231              194 Release
+ f6f36da600a36577332b4e48929886796569e38b93f2862008aa26c7a905fe1c9f323cdbad7a518a06a570fe5780197a45b2e42e5663b2db50c1a79c3416bef5             3680 main/binary-amd64/Packages
+ 0602972b2611da80e99653a12450fdf864f9b0bac4f8cbb6ea5a84c005c6111968023df977a757950ef1c7b50d6f3e81c04a2edcd6a135d5b0f15390278f9f99             1772 main/binary-amd64/Packages.gz
