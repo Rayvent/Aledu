@@ -1,0 +1,134 @@
+Package: aledu-branding
+Architecture: all
+Version: 0.2.4
+Priority: optional
+Section: misc
+Maintainer: Rayvent <andrey_shramko@list.ru>
+Installed-Size: 85
+Depends: learn-course (>= 0.1.1), gsettings-desktop-schemas, libglib2.0-0t64, hicolor-icon-theme, librsvg2-common, x-terminal-emulator, desktop-base, libglib2.0-bin, fastfetch (>= 2.40)
+Filename: pool/main/aledu-branding_0.2.4_all.deb
+Size: 47332
+MD5sum: 22e2db426cd6625162dc3bda835bcc46
+SHA1: 3e63f379ee5dc35c8dad91a0040ab8fdb6e42134
+SHA256: b95a690661b1e830f16f6be8de3361ce48cc438ff2e720b1b5f0f2dd038b6d7b
+SHA512: ab9c58b837d210d9d5095a054f80d228b520f8d1eaa210740c7483c93c4f7d1c1b9a22ef03ced2b528c3ae201ad11e84c48725fcb8dad31254cc17e2aaea1a8e
+Description: Aledu Linux desktop appearance
+ Wallpaper, application icon, course launcher
+ and default GNOME appearance settings for Aledu Linux.
+
+Package: aledu-design
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: x11
+Maintainer: Aledu local build <build@aledu.invalid>
+Installed-Size: 507
+Depends: aledu-branding (>= 0.2.2), python3, python3-yaml, grub-common, plymouth
+Filename: pool/main/aledu-design_0.1.1_all.deb
+Size: 205732
+MD5sum: 9bec15a7a2eb4c65aa0eb323f3559833
+SHA1: 86cb63d086bd9d762ce6919f1dc261d6a4bbcf50
+SHA256: a0e319371f9a2e4ed882a83d295ddd62f1b54e6970901f6daf4f9fa4b72fb187
+SHA512: c16f275fe4b97f489e8bfe945ba60de94c410af7f4203c9d8c1e7c63e278f4c1d39a9f0fdd52023d4a92a74fdf80779dfaddf2bc7ea0a1d56b098fe0ecdc8c32
+Description: Aledu installer and boot appearance
+
+Package: aledu-lessons
+Architecture: all
+Version: 0.2.5
+Priority: optional
+Section: education
+Maintainer: Aledu local build <build@aledu.invalid>
+Depends: aledu-branding (>= 0.2.4), aledu-design (>= 0.1.1), learn-course (>= 0.3.3), learn-seminar-02 (>= 0.1.0), learn-seminar-03 (>= 0.2.0), learn-seminar-04 (>= 0.1.0), aledu-repository (>= 0.1.5)
+Filename: pool/main/aledu-lessons_0.2.5_all.deb
+Size: 836
+MD5sum: 81bcd7069840d5c08a498143677e250b
+SHA1: 5e3c564b3c1fd43411176fdf932cdf9604a29ac4
+SHA256: 1cccf09c58239a704d366e491088f83d229db4625cb8cf3f0186f5a9d1a386ff
+SHA512: b0ca7d12cbf9d4c409c2ee129d73eb5ec61eaf711c4e84943c66675ac7da69be2f78c52882f65077cd388b9364778120ae682044944ff408db2283a23a4909c4
+Description: Aledu Learn course collection
+ Installs the current Learn engine, branding and seminar modules.
+
+Package: aledu-repository
+Architecture: all
+Version: 0.1.5
+Priority: optional
+Section: admin
+Maintainer: Aledu local build <build@aledu.invalid>
+Depends: apt, ca-certificates
+Filename: pool/main/aledu-repository_0.1.5_all.deb
+Size: 1420
+MD5sum: 2c7768c658410a6351b5ccb27ab3b7ff
+SHA1: fb2414816bf20f446440f3c9a697ee9af66c2202
+SHA256: f976b912201759cbd941ec5a1fce8a2cd20b187391c702baa448f66f91816190
+SHA512: 0f1c2f2383b3c7b882bdbfcfa177c65eb6fd9579dfe12e4db8d389035cb5c26abe8f9e265d3b299069b02b54986e0176028c8ddd692e7f5fb525963ff32c3558
+Description: Aledu signed package repository configuration
+ Public archive key and the Aledu APT source definition.
+
+Package: learn-course
+Architecture: all
+Version: 0.3.3
+Priority: optional
+Section: misc
+Maintainer: Rayvent <andrey_shramko@list.ru>
+Installed-Size: 87
+Depends: bash, coreutils, diffutils, findutils, grep, less, man-db, manpages, ncurses-bin, python3, apt, sudo
+Filename: pool/main/learn-course_0.3.3_all.deb
+Size: 22652
+MD5sum: 54cdfc53d692a3373418470c1562cf9c
+SHA1: bb3af7a5b909483954281fca0fab984a0c2c1d20
+SHA256: aa2467a7485de4d47d36dfeb2d788f4fd0a8104743da747aca9bbea674dd9a25
+SHA512: dae86ba377e73c97016fb544bd27bb92d10741be72067288c7ecc58de278a8cfce1189a6b050214a56da863ac3e7baf381a32893975b923e20c7ba1d9b795815
+Description: Interactive Linux terminal course
+ Guided terminal exercises with hints, progress tracking
+ and checks for completed tasks.
+
+Package: learn-seminar-02
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: education
+Maintainer: Aledu local build <build@aledu.invalid>
+Depends: learn-course (>= 0.2.0), python3, bash, file, vim, sed, grep, dpkg
+Filename: pool/main/learn-seminar-02_0.1.0_all.deb
+Size: 16740
+MD5sum: 3295fc6def2b4eef11630a7bf681ee17
+SHA1: 05db1450dc9d0a43c091189f5cae47dcd2327e53
+SHA256: c773af19cb98b5e324623e60d529ce065b00e75434a3a2db87da64e0b9e76410
+SHA512: f115f3a015a98f1e0c3fd464986cec67b7424950b02e376f1b18dbc62a5896fb4aa60a55255b5e4bb51a06815cb730e9bc9ee2ca51464f4a5469fd8bb855cc0e
+Description: Aledu Learn seminar 2
+ Guided terminal exercises with hints and read-only result checks.
+ Includes the original workbench package as a training material.
+
+Package: learn-seminar-03
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: education
+Maintainer: Aledu Team
+Installed-Size: 50
+Depends: learn-course (>= 0.3.2), bash, python3
+Filename: pool/main/learn-seminar-03_0.2.0_all.deb
+Size: 14712
+MD5sum: 5d8231b32e786d1e870c1213af5f9048
+SHA1: 1845846d66404a9c50b4d8832e39ef03106a27d7
+SHA256: 71cc0ea34a7c12dab46a0e7236d009e946834e7378e9746d506a02122f701f3d
+SHA512: 968f1ab7e780db27a83a970fe90ec5f89b59d1896f33a60956bbfb20aa5573a8cfe7d71a37faa0b13982ae4deffc0f848a800a75bdb358b69dc8254189e14bf6
+Description: Aledu Learn - compilation and Make
+ Concise seminar with 28 tasks and read-only artifact checks.
+
+Package: learn-seminar-04
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: education
+Maintainer: Aledu local build <build@aledu.invalid>
+Depends: learn-course (>= 0.3.2), bash, python3, git, openssh-client, gnupg
+Filename: pool/main/learn-seminar-04_0.1.0_all.deb
+Size: 14972
+MD5sum: c078d5c1ff59f49ff1e4b84ad70dac28
+SHA1: 6f4fc69e3ad9c2f7331ade85391c120f763cbe37
+SHA256: 3b7270f2238b4d51c2c24323b2a51d03563a6d10059b44039bb159af4a9b8b57
+SHA512: f69517d6b68d028fed05822c00e54fda8694ce8670e8ebeeb3ffd157bc3013587ecca80aea0305c520d2f648c2d6299da599755b241a66da16a7ee8fea747122
+Description: Aledu Learn seminar 4
+ Guided exercises, hints and training materials.
+

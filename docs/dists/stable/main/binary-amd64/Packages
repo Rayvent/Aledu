@@ -1,17 +1,17 @@
 Package: aledu-branding
 Architecture: all
-Version: 0.2.2
+Version: 0.2.4
 Priority: optional
 Section: misc
 Maintainer: Rayvent <andrey_shramko@list.ru>
-Installed-Size: 83
-Depends: learn-course (>= 0.1.1), gsettings-desktop-schemas, libglib2.0-0t64, hicolor-icon-theme, librsvg2-common, x-terminal-emulator, desktop-base, libglib2.0-bin
-Filename: pool/main/aledu-branding_0.2.2_all.deb
-Size: 46724
-MD5sum: fd1d42b88570ba7fc7f12d090dedb950
-SHA1: 518f520218efb108fac7f1af7fc7451a81918d8d
-SHA256: 8b2eeb0c2484176078258407364b1275a8cb9d78a95e88e54c119f06d58407fb
-SHA512: 5d878730bbb82228ee67ffc2b915d1b11cbb43cb630e0409b3598600f50b13579d06d6c939bf13e648d01b11d2c54fce1dffe6575a052f68d5678e309ee98804
+Installed-Size: 85
+Depends: learn-course (>= 0.1.1), gsettings-desktop-schemas, libglib2.0-0t64, hicolor-icon-theme, librsvg2-common, x-terminal-emulator, desktop-base, libglib2.0-bin, fastfetch (>= 2.40)
+Filename: pool/main/aledu-branding_0.2.4_all.deb
+Size: 47332
+MD5sum: 22e2db426cd6625162dc3bda835bcc46
+SHA1: 3e63f379ee5dc35c8dad91a0040ab8fdb6e42134
+SHA256: b95a690661b1e830f16f6be8de3361ce48cc438ff2e720b1b5f0f2dd038b6d7b
+SHA512: ab9c58b837d210d9d5095a054f80d228b520f8d1eaa210740c7483c93c4f7d1c1b9a22ef03ced2b528c3ae201ad11e84c48725fcb8dad31254cc17e2aaea1a8e
 Description: Aledu Linux desktop appearance
  Wallpaper, application icon, course launcher
  and default GNOME appearance settings for Aledu Linux.
@@ -34,33 +34,33 @@ Description: Aledu installer and boot appearance
 
 Package: aledu-lessons
 Architecture: all
-Version: 0.2.3
+Version: 0.2.5
 Priority: optional
 Section: education
 Maintainer: Aledu local build <build@aledu.invalid>
-Depends: aledu-branding (>= 0.2.2), aledu-design (>= 0.1.1), learn-course (>= 0.3.3), learn-seminar-02 (>= 0.1.0), learn-seminar-03 (>= 0.2.0), learn-seminar-04 (>= 0.1.0), aledu-repository (>= 0.1.3)
-Filename: pool/main/aledu-lessons_0.2.3_all.deb
+Depends: aledu-branding (>= 0.2.4), aledu-design (>= 0.1.1), learn-course (>= 0.3.3), learn-seminar-02 (>= 0.1.0), learn-seminar-03 (>= 0.2.0), learn-seminar-04 (>= 0.1.0), aledu-repository (>= 0.1.5)
+Filename: pool/main/aledu-lessons_0.2.5_all.deb
 Size: 836
-MD5sum: 2dd00c1163de629c9eff3c3b2cb99561
-SHA1: d28e0763907997ea81a31121cf7a08f4f4aacd96
-SHA256: 974eb845a0af5b2fa2e89b9f8b69021ef43a23ebe634f57a94d61c4c8d2f5e5e
-SHA512: 121e3e47d5f14ad1d3bbb6e0d1ddbf4e4a73b0fa0221eb840f036d71f5f8aa684af3fa76467677544cced0c71a5f228a14b2fdde949ebdb4b9a2c9ee648e93d6
+MD5sum: 81bcd7069840d5c08a498143677e250b
+SHA1: 5e3c564b3c1fd43411176fdf932cdf9604a29ac4
+SHA256: 1cccf09c58239a704d366e491088f83d229db4625cb8cf3f0186f5a9d1a386ff
+SHA512: b0ca7d12cbf9d4c409c2ee129d73eb5ec61eaf711c4e84943c66675ac7da69be2f78c52882f65077cd388b9364778120ae682044944ff408db2283a23a4909c4
 Description: Aledu Learn course collection
  Installs the current Learn engine, branding and seminar modules.
 
 Package: aledu-repository
 Architecture: all
-Version: 0.1.3
+Version: 0.1.5
 Priority: optional
 Section: admin
 Maintainer: Aledu local build <build@aledu.invalid>
 Depends: apt, ca-certificates
-Filename: pool/main/aledu-repository_0.1.3_all.deb
+Filename: pool/main/aledu-repository_0.1.5_all.deb
 Size: 1420
-MD5sum: f36e313b0912af7c2d332f20ea728348
-SHA1: ae4894756af5aad05b9bc409c3b82489733ca20d
-SHA256: 0ee2a08a172cf8c5b98ee51c02b4d2a952a6d83e882eacf4ccbb5be28532cc39
-SHA512: fa57d30a232eea0624eaf7441fdd0b857b65ae8dcb0558943197d40a12c03699c3269fbb2936d2d94be0884b873aeeb7c3e04463d8ae2d4badf0cc564fd9dfc9
+MD5sum: 2c7768c658410a6351b5ccb27ab3b7ff
+SHA1: fb2414816bf20f446440f3c9a697ee9af66c2202
+SHA256: f976b912201759cbd941ec5a1fce8a2cd20b187391c702baa448f66f91816190
+SHA512: 0f1c2f2383b3c7b882bdbfcfa177c65eb6fd9579dfe12e4db8d389035cb5c26abe8f9e265d3b299069b02b54986e0176028c8ddd692e7f5fb525963ff32c3558
 Description: Aledu signed package repository configuration
  Public archive key and the Aledu APT source definition.
 

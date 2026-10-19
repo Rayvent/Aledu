@@ -2,24 +2,24 @@ Acquire-By-Hash: yes
 Architectures: amd64
 Codename: aledu-stable
 Components: main
-Date: Sun, 18 Oct 2026 17:07:17 +0000
+Date: Mon, 19 Oct 2026 06:45:44 +0000
 Description: Aledu Learn updates
 Label: Aledu
 Origin: Aledu
 Suite: stable
 MD5Sum:
- f791267bb8ce8330082bf65bc2072a69              194 Release
- c62ca417346a430ba95c67cb1aa478bb             5779 main/binary-amd64/Packages
- 94fea5c5bee65ebfbd372743ac2e98cb             2530 main/binary-amd64/Packages.gz
+ a5a2c4ac0bcaac38a62d5200053bbab1              194 Release
+ 3c5c841f11942eabf5e97198e522cb53             5800 main/binary-amd64/Packages
+ f321dce4843a036d3fcba9d9c4352488             2545 main/binary-amd64/Packages.gz
 SHA1:
- a164d35502ff2cbee28e2c62551886e7152f1157              194 Release
- 1a8416d61eab1f21206c364f690df4fe06820bd6             5779 main/binary-amd64/Packages
- 5ccec130a74080aad6854debd8a598a1bb350157             2530 main/binary-amd64/Packages.gz
+ 7efa0e1d800fc1f578da319425deb117c3565fd2              194 Release
+ 7d8024caa1c5fd846587842d70521f0caefd952e             5800 main/binary-amd64/Packages
+ 1bff71dcfe52c93986ae74e5900a0bbe899093e5             2545 main/binary-amd64/Packages.gz
 SHA256:
- c24ea42c0d7ed68e1bed86379e97d2cec36236e7ffe8df66b7769ce22c5890a3              194 Release
- 8375fa6a4c838123dfaa0cf987611a75ec66b7001b4d222b5100ec48f2fd0d2b             5779 main/binary-amd64/Packages
- 8efa247da200a61cdded729b179b06b68d91618245c225304ea3d14390e80860             2530 main/binary-amd64/Packages.gz
+ fba29381a12e3b3d505d419dea5044ce2be7627fcfcb40fbbaf0f6f93ba38033              194 Release
+ f10b40ad0a0d93bfc387d07473d0c8939fe85549f95782c433ef87798ea1402c             5800 main/binary-amd64/Packages
+ d267f7962384c6e1b4f0c99b50a31b168a9dc77f4e1ee0d2088ba91b1be13ca9             2545 main/binary-amd64/Packages.gz
 SHA512:
- f42147a649516529b11ee24e75a55675acf315f48e924d0057ded6fb3f3e22c645e76a626e617aacc1277577706b37b557e1fb89b77b7e5fb978172493644789              194 Release
- cedc6b0ea18aab8601fe66e625accbde3184aa125c6b530c65778d6b926dffd944f362084377c96740922167dcd2a3305b152bfd8cc5860746a9413f2b75307c             5779 main/binary-amd64/Packages
- f405f20d37454c3b59ad68c1bb86de0c587d1a6a57090367f4356bb17fb5549423ff12ddced92fab90ab76a8bbd4b1c15da5512e0d3f1768c2371ec5810b9b29             2530 main/binary-amd64/Packages.gz
+ 567658f363f30c65a4c8394370c60ac54ee1698ed0f94c5fb5deadece91685376507dd113d5b80194e74f6a0efa951225c9cdbb8c3e8dd070a3f8ef0ede35298              194 Release
+ d403003d9f270259c37875df1a879f46d7c75b688e683b1d503638e1752bab93d07a25d371eefb5f0104702aca2cc79fb7c8309909dae0ea95f323087432b86b             5800 main/binary-amd64/Packages
+ df0ee56ab46f458a24c6b17382ac8a5a84c2eaf6f8483346b8df32895f987e549570e500f0e182bc2b19dae03f133ef6cb554cb501cd20b652dd99ded5cde428             2545 main/binary-amd64/Packages.gz
