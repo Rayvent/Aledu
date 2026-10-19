@@ -5,31 +5,31 @@ Acquire-By-Hash: yes
 Architectures: amd64
 Codename: aledu-stable
 Components: main
-Date: Sun, 18 Oct 2026 12:33:32 +0000
+Date: Sun, 18 Oct 2026 17:07:17 +0000
 Description: Aledu Learn updates
 Label: Aledu
 Origin: Aledu
 Suite: stable
 MD5Sum:
- d1810f11ca2ff2d8339b68f68a02fa22              194 Release
- 6253474f8c17b264bb338eef539093a6             4352 main/binary-amd64/Packages
- acf32af8a33ac2d0d1c8d8da73727c66             1981 main/binary-amd64/Packages.gz
+ f791267bb8ce8330082bf65bc2072a69              194 Release
+ c62ca417346a430ba95c67cb1aa478bb             5779 main/binary-amd64/Packages
+ 94fea5c5bee65ebfbd372743ac2e98cb             2530 main/binary-amd64/Packages.gz
 SHA1:
- 49fa8ce8584a486f7024bcc9bb9d68910331b850              194 Release
- 1aa54b281dcf2fa0d238c26b685ce83c7c7c7aee             4352 main/binary-amd64/Packages
- cdc4ba7ba0e4be8af5d978844b1e434ccf178e61             1981 main/binary-amd64/Packages.gz
+ a164d35502ff2cbee28e2c62551886e7152f1157              194 Release
+ 1a8416d61eab1f21206c364f690df4fe06820bd6             5779 main/binary-amd64/Packages
+ 5ccec130a74080aad6854debd8a598a1bb350157             2530 main/binary-amd64/Packages.gz
 SHA256:
- 57e25d74518103eaa9b9f7a7d2eced02b9ffa73152e542e510110dd53cebb833              194 Release
- 9bac9e1d4f34a6e3f8a17f87793a98027123f569cb75153c9f1a59fc42aee09f             4352 main/binary-amd64/Packages
- 3601ffdd1aa1582bf4d08cea9f3b094afba3effa1508307d4e0395bd8c2dbe84             1981 main/binary-amd64/Packages.gz
+ c24ea42c0d7ed68e1bed86379e97d2cec36236e7ffe8df66b7769ce22c5890a3              194 Release
+ 8375fa6a4c838123dfaa0cf987611a75ec66b7001b4d222b5100ec48f2fd0d2b             5779 main/binary-amd64/Packages
+ 8efa247da200a61cdded729b179b06b68d91618245c225304ea3d14390e80860             2530 main/binary-amd64/Packages.gz
 SHA512:
- ef48d316cf474c3cb3aa5a024f0abeb14bd40f9b6dc2550fb7e32d502c318cce6027db84f287858956156386872aae3fbb8ec9ea00443cf5ca7fc2d4e28336ad              194 Release
- a206c4c682534ce5288fea6254c81d0ca16611f13e907dae6ed378a74fdd06382bab7c4ae83790c897ac964c664ad8d7997e9d81058b0f2f6ac74636a02a09b1             4352 main/binary-amd64/Packages
- 8cc970b092ca1dd570af453bc22e47a857f1781a7b2f2fb24ea91c5df06d846bf85ea585e222eb5b83ced92a9cdb527f3b1f8a948fb277bc99c268800ceb85e4             1981 main/binary-amd64/Packages.gz
+ f42147a649516529b11ee24e75a55675acf315f48e924d0057ded6fb3f3e22c645e76a626e617aacc1277577706b37b557e1fb89b77b7e5fb978172493644789              194 Release
+ cedc6b0ea18aab8601fe66e625accbde3184aa125c6b530c65778d6b926dffd944f362084377c96740922167dcd2a3305b152bfd8cc5860746a9413f2b75307c             5779 main/binary-amd64/Packages
+ f405f20d37454c3b59ad68c1bb86de0c587d1a6a57090367f4356bb17fb5549423ff12ddced92fab90ab76a8bbd4b1c15da5512e0d3f1768c2371ec5810b9b29             2530 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQTM5g6t5dEtTREZhid6fazpmlKRzwUCatS8nAAKCRB6fazpmlKR
-zwMxAQCg6bxdchTi8RkG9gE/Prlx1y9xqEESY+1pq36FIb4AwgD+JoYuT1VzpG9R
-aHAC6AZrGJAsslipnmQPHpRdFHAgMwA=
-=TZFo
+iHUEARYIAB0WIQTM5g6t5dEtTREZhid6fazpmlKRzwUCatT8xQAKCRB6fazpmlKR
+z8SgAP0Rdz3lAXCqNn7oUT81r9hpTea/BSu0kCSBdTyY2pmo5wD+LFH4TRKMVSpn
+ciFnWZ/H3/FsJIXauTt2YfjYmQzctA4=
+=UyYf
 -----END PGP SIGNATURE-----
